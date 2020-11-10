@@ -1,13 +1,13 @@
 # Geico
 
-Code: ShiftR_College-Tester-Dev.ipynb 
+ShiftR_College-Tester-Dev.ipynb : Code
 
-Data Visuals: Cluster_Spray_Chart.Rmd
+Cluster_Spray_Chart.Rmd : Data Visuals
 
-Traditional Fielding Locations: Traditional_Field.csv
+Traditional_Field.csv : Traditional Fielding Locations
 
-Optimal Fielding Locations: Final_Shift.csv
+Final_Shift.csv : Optimal Fielding Locations
 
-Screenshot of correlation matrix against binary label: corr_matrix.png
+corr_matrix.png : Screenshot of correlation matrix against binary label
 
-Report based on previous iteration of this project where only 4 positions were optimized (this project optimizes all 7): Defense_Optimization.pdf
+Defense_Optimization.pdf : Report based on previous iteration of this project where only 4 positions were optimized (this project optimizes all 7)
